@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(166, 57%, 28%);
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(166, 57%, 28%);
+
+}
+#title{
+    display: flex;
+    justify-content: center;
+}
+.title {
+    padding: 70px;
+    padding-top: 0;
+    color: hsl(58, 83%, 60%);
+    font-size: 30px;
+}
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 55px;
+}
+.card {
+    width: 245px;
+    height: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(111, 36%, 66%);
+    border-radius: 15px;
+}
+h2 {
+    font-size: 20px;
+    margin: 15px;
+    color: hsl(34, 7%, 21%);
+}
+h4 {
+    margin: 10px;
+    color: hsl(34, 7%, 21%);
+}
+
+@media (max-width:300px) {
+
+    .container {   
+        padding: 0 60px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .perfil {
+        justify-content: flex-start;
+    }
+}
+
